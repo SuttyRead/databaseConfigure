@@ -1,0 +1,4 @@
+sudo apt-get install postgresql  
+/etc/init.d/postgresql status
+sudo -u postgres psql postgres
+\password postgres
